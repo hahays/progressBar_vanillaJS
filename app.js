@@ -1,0 +1,1 @@
+class ProgressBar extends HTMLElement {}
