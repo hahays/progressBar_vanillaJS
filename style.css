@@ -1,0 +1,40 @@
+html {
+  background-color: #a882dd;
+  font-family: "Asap", sans-serif;
+}
+.main-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+.buttons {
+  width: 250px;
+  display: flex;
+  justify-content: 40px;
+  justify-content: center;
+  gap: 20px;
+}
+.button {
+  height: 40px;
+  width: 80px;
+  color: white;
+  background: #e08d79;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.5s;
+  border-style: groove;
+}
+.button:hover {
+  background: #8ace7c;
+}
+progress-bar {
+  --fill-color: #8ace7c;
+  background: #cdc6d8;
+  box-shadow: -1px 0px 10px 3px #49416d;
+}
